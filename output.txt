@@ -1,0 +1,44 @@
+Struktury Danych i Ztozonogé Obliczeniowa
+Raport 4
+Maciej Kleczewski 259545
+Wtorek 11:15 - Y02-31b- TN
+
+Cel éwiczenia:
+Celem éwiczenia bylo zaimplementowaé algorytm do wyznaczenia najkrotszej $ciezki
+w grafie. Ja wybratem algorytm Dijkstry.
+
+Implementacja:
+Zadanie zostalo wykonane dla instancji 10-1000, co 10,50 i 100 liczb. Dia kazdej
+instangji nalezato przeprowadzié usrednienie czasow po wykonaniu 10 pomiarow.
+Nie zawartem paska postepu oraz przy wywolaniu programu zakomentowalem
+wy$wietlanie na ekranie, poniewaz wplywato to na czas wywolania programu.
+Zawartosé pliku config.ini:
+
+Tabela 1.Tabela danych zawartych w pliku config.ini
+
+B contig.ini —Notatnik
+Pik Edycja Format Widok Pomoc
+
+[Settings]
+
+algoritm=Dijkstry
+
+elements=100, 200, 300, 400, 500, 600, 700, 800, 900, 1000
+
+time=time. txt
+rep=10
+
+Opis algorytmu:
+Algorytm Dijkstry stuzy do znajdowania najkrétszej Sciezki miedzy dwoma
+wierzchotkami w grafie wazonym, gdzie wagi krawedzi sa nieujemne. Jest to przyktad
+
+algorytmu zachtannego.
+
+Wykonanie ¢wiczenie:
+Analizujac ponizsze wykresy mozna zauwazyé, ze speiniaja zatozony warunek i
+zlozonosé czasowa, ktéra wynosi 0(V7). Wykresy przypominaja parabole, co jest
+réwnoznaczne z skutecznoscia metody. Na szybsze wywolane programu wplywa
+zakomentowanie linijek odpowiedzialnych za wySwietlenie programu. Gdy to zrobimy,
+
+wykresy nabierajq zamierzony ksztait.
+
